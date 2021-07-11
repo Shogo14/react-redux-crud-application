@@ -1,12 +1,18 @@
 import React from "react";
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
-      <label htmlFor="bar">bar</label>
-      <input type="text" />
+      <Cat />
+      <Cat />
+      <Cat />
+      <Cat />
     </React.Fragment>
   );
-}
+};
+
+const Cat = () => {
+  return <div>Meaw!</div>;
+};
 
 export default App;
